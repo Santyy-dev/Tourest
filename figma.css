@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Istok Web', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header-left a {
+    padding-right: 95px;
+}
+
+.header-right a {
+    padding-right: 35px;
+}
+
+.bg-img {
+    width: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.para {
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    row-gap: px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.card img {
+    width: 280px;
+}
+
+.para2 {
+    text-align: center;
+    font-size: 45px;
+    font-family: Istok Web;
+    font-weight: bold;
+}
+
+.hero {
+    padding-top: 60px;
+    background-color: rgba(125, 181, 201, 0.626);
+}
+
+.card-1 {
+    display: flex;
+}
+
+.card-1 img {
+    width: 400px;
+    padding-left: 30px;
+    margin: 86px 10px;
+}
+
+.para-right {
+    margin-top: 210px;
+    margin-left: 80px;
+}
+
+.para-right .para-1 {
+    font-size: 39px;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+.para-2 {
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+.card-2 {
+    display: flex;
+}
+
+.para-left {
+    margin: 80px 0;
+    margin-left: 80px;
+}
+
+.para-left-1 {
+    font-family: K2D;
+    font-size: 39px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.para-left-2 {
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.img-right {
+    padding-left: 40px;
+    margin: 0 40px;
+}
+
+.img-right img {
+    width: 400px;
+}
+
+.para-center {
+    padding: 150px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.hero-para {
+    margin-top: 60px;
+    text-align: center;
+    padding: 100px;
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-icon {
+    display: flex;
+    padding-bottom: 250px;
+    padding-top: 60px;
+}
+
+.icon-1 img {
+    width: 200px;
+    position: relative;
+    left: 50px;
+}
+
+.icon-2 img {
+    width: 147px;
+    padding-top: 26px;
+    position: relative;
+    left: 130px;
+}
+
+.icon-3 {
+    width: 145px;
+    padding-top: 10px;
+    position: relative;
+    left: 220px;
+}
+
+.icon-4 {
+    width: 145px;
+    padding-top: 54px;
+    position: relative;
+    left: 300px;
+}
+
+.left-icon {
+    padding-top: 60px;
+
+}
+
+.left-icon {
+    display: flex;
+}
+
+.icon1 {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.icon2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon1 img {
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.left-icon p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.icon3 p {
+    padding-left: 80px;
+}
+
+hr {
+    margin: 4rem 0;
+    border-color: rgba(0, 0, 0, 0.32);
+}
+
+span {
+    margin-right: 20px;
+}
+
+.foot-img {
+    background-color: rgba(125, 181, 201, 0.626);
+}
+
